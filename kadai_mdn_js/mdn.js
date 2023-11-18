@@ -1,8 +1,9 @@
-const date = new Date('8, 22, 2023');
+const now = new Date();
+console.log(now);
 
-const year = date.getFullYear();
-const month =date.getMonth() + 1;
-const day = date.getDate();
+const year = now.getFullYear();
+const month =now.getMonth() + 1;
+const day =now.getDate();
 
 
 console.log(year + '年' + month + '月' + day + '日')
